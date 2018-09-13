@@ -51,6 +51,9 @@ label{
 }
 .header-bottom {
 	padding:3.5em 0;
+	background: #333131;
+	color: #fff;
+	font-family: cursive;
 }
 .header-bottom h3 {
 	color:#4a4a4a;
