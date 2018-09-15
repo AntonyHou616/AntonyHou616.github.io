@@ -1,28 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>首页</title>
-<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-<!-- Custom Theme files -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- Custom Theme files -->
-<script src="http://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
-<!-- Custom Theme files -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="双诚膨润土 膨润土" />
-<meta name="description" content="双诚膨润土专注于膨润土生产加工">
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+   <title>双诚膨润土</title>
+   <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+   <link href="css/swipebox.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="http://apps.bdimg.com/libs/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+	<!-- 可选的Bootstrap主题文件（一般不使用） -->
+	<script src="http://apps.bdimg.com/libs/bootstrap/3.0.3/css/bootstrap-theme.min.css"></script>
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="http://apps.bdimg.com/libs/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="双诚膨润土 膨润土" />
+	<meta name="description" content="双诚膨润土专注于膨润土生产加工">
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!--webfont-->
-<link href='http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
- <script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
-			});
-		});
-	</script>
 </head>
 <body>
 	<!-- header-section-starts -->
@@ -68,9 +62,79 @@
 	<div class="content">
 		<div class="container">
 			<div class="blog-section">
-				<h4 class="head">主打产品<span class="line"></span></h4>
+				<div id="myCarousel" data-interval="1000" class="carousel slide">
+					<!-- 轮播（Carousel）指标 -->
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+					<!-- 轮播（Carousel）项目 -->
+					<div class="carousel-inner">
+						<div class="item active">
+							<img src="images/demo1.jpg" alt="First slide">
+							<div class="carousel-caption">膨润土</div>
+						</div>
+						<div class="item">
+							<img src="images/demo1.jpg" alt="Second slide">
+							<div class="carousel-caption">钙基膨润土</div>
+						</div>
+						<div class="item">
+							<img src="images/demo1.jpg" alt="Third slide">
+							<div class="carousel-caption">锂基膨润土 3</div>
+						</div>
+					</div>
+					<!-- 轮播（Carousel）导航 -->
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+			<div class="blog-section">
+				<h4 class="head">畅销产品<span class="line"></span></h4>
+				<div class="right_column">
+					<div class="item">
+						<ul>
+							<li class="bb1"><a href="pengruntu.html">膨润土 </a></li>
+							<li class="bb1"><a href="pengruntu.html">钙基膨润土</a></li>
+							<li class="bb1"><a href="pengruntu.html">锂基膨润土</a></li>
+						</ul>
+					</div>
+					<div class="item2">
+						<ul>
+							<li class="bb1"><a href="pengruntu.html">闭孔珍珠岩</a></li>
+							<li class="bb1"><a href="pengruntu.html">覆盖剂</a></li>
+							<li class="bb1"><a href="pengruntu.html">沸石粉</a></li>
+						</ul>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+
+			<div class="blog-section">
+				<h4 class="head">公司新品<span class="line"></span></h4>
 				<div class="blog-post-grids blog_grids">
-					<div class="col-md-4 blog-posts">
+					<div class="flexRow row">
+						<div class="blog-post">
+							<a ><img style=" width: 100%; " src="images/demo5.jpg"></a>
+							<a  class="blog-title">沸石粉</a>
+							<p  style=" display: none; ">Fusce placerat bibendum augue, non posuere lorem facilisis sit amet. Mauris malesuada nunc eget est pellentesque sit amet aliquet dolor pharetra. Integer placerat elit quis nisl dignissim non consectetur quam vestibulum. Suspendisse tincidunt adipiscing magna, ut dapibus nulla varius nec. Proin mi dolor, dapibus nec congue posuere, ornare sit. </p>
+						</div>
+						<div class="blog-post">
+							<a ><img style=" width: 100%; " src="images/demo6.jpg"></a>
+							<a  class="blog-title">覆盖剂</a>
+							<p  style=" display: none; ">覆盖剂是火山喷发的酸性岩经急速冷却而形成的玻璃质岩石经特殊加工西方处理后，撒在刚出炉的钢（铁）水表层，体积迅速膨胀4—30倍，具有排渣、保温等特点，故俗称除渣剂。 </p>
+						</div>
+						<div class="blog-post">
+							<a ><img style=" width: 100%; " src="images/demo4.jpg"></a>
+							<a  class="blog-title">闭孔珍珠岩</a>
+							<p  style=" display: none; ">闭孔珍珠岩(又叫釉化珍珠岩、球型膨胀珍珠岩)，是一种新型珍珠岩产品。广泛应用于墙体内外保温砂浆、装饰板、保温板的轻质骨料使用，同时可代替部分漂珠使用。 该产品是由有一定粒径的珍珠岩矿砂在垂直电炉梯级加热方式下达到一定温度后由内到外均匀膨胀，膨胀颗粒表面又经瞬间高温玻化，经降温后形成连续玻质化的颗粒表面，而内部保持着完整的多孔、中空空心结构，独特的生产方式决定了产品保持了珍珠岩天然无机化学成份的纯度。该产品克服了传统膨胀珍珠岩吸水率大、强度低、流动性差的特点，延伸了膨胀珍珠岩的应用领域，具有强度高，吸水率低，易分散等显著特点，可提高砂浆流动性，是生产复合保温涂料、耐火砖、搪瓷材料的主要配料，建筑、冶金、工业窑炉电热绝缘、热力管道等高档保温材料和轻质填料。.</p>
+						</div>
 						<div class="blog-post">
 							<a ><img style=" width: 100%; " src="images/demo1.jpg"></a>
 							<a  class="blog-title">膨润土</a>
@@ -88,48 +152,12 @@
 								锂基膨润土是根据天然锂蒙脱石的结构性质改性合成的产品，其为层状含锂铝硅酸盐的白色固体粉状，遇水或乙醇、丙 酮等极性溶剂中， 形成胶体或充分溶胀使涂料的粘度增强，并在耐火基料的表面形成溶剂化薄膜，或者形成立体网状结构，以支撑和阻止耐火基料的下沉，从而提高涂料的悬浮稳定性能。同时该结构可因遇到外界较高剪切力而受到破坏，失去或较小剪切力则恢复，使涂料具有极好的触变性。 </p>
 						</div>
 					</div>
-					<div class="col-md-4 blog-posts">
-						<div class="blog-post">
-							<a ><img style=" width: 100%; " src="images/demo5.jpg"></a>
-							<a  class="blog-title">沸石粉</a>
-							<p  style=" display: none; ">Fusce placerat bibendum augue, non posuere lorem facilisis sit amet. Mauris malesuada nunc eget est pellentesque sit amet aliquet dolor pharetra. Integer placerat elit quis nisl dignissim non consectetur quam vestibulum. Suspendisse tincidunt adipiscing magna, ut dapibus nulla varius nec. Proin mi dolor, dapibus nec congue posuere, ornare sit. </p>
-						</div>
-						<div class="blog-post">
-							<a ><img style=" width: 100%; " src="images/demo6.jpg"></a>
-							<a  class="blog-title">覆盖剂</a>
-							<p  style=" display: none; ">覆盖剂是火山喷发的酸性岩经急速冷却而形成的玻璃质岩石经特殊加工西方处理后，撒在刚出炉的钢（铁）水表层，体积迅速膨胀4—30倍，具有排渣、保温等特点，故俗称除渣剂。 </p>
-						</div>
-						<div class="blog-post">
-							<a ><img style=" width: 100%; " src="images/demo4.jpg"></a>
-							<a  class="blog-title">闭孔珍珠岩</a>
-							<p  style=" display: none; ">闭孔珍珠岩(又叫釉化珍珠岩、球型膨胀珍珠岩)，是一种新型珍珠岩产品。广泛应用于墙体内外保温砂浆、装饰板、保温板的轻质骨料使用，同时可代替部分漂珠使用。 该产品是由有一定粒径的珍珠岩矿砂在垂直电炉梯级加热方式下达到一定温度后由内到外均匀膨胀，膨胀颗粒表面又经瞬间高温玻化，经降温后形成连续玻质化的颗粒表面，而内部保持着完整的多孔、中空空心结构，独特的生产方式决定了产品保持了珍珠岩天然无机化学成份的纯度。该产品克服了传统膨胀珍珠岩吸水率大、强度低、流动性差的特点，延伸了膨胀珍珠岩的应用领域，具有强度高，吸水率低，易分散等显著特点，可提高砂浆流动性，是生产复合保温涂料、耐火砖、搪瓷材料的主要配料，建筑、冶金、工业窑炉电热绝缘、热力管道等高档保温材料和轻质填料。.</p>
-						</div>
-					</div>
-					<div class="col-md-4 blog-posts span_66">
-						<div class="blog-post">
-							<a ><img style=" width: 100%; " src="images/demo5.jpg"></a>
-							<a  class="blog-title">沸石粉</a>
-							<p  style=" display: none; ">Fusce placerat bibendum augue, non posuere lorem facilisis sit amet. Mauris malesuada nunc eget est pellentesque sit amet aliquet dolor pharetra. Integer placerat elit quis nisl dignissim non consectetur quam vestibulum. Suspendisse tincidunt adipiscing magna, ut dapibus nulla varius nec. Proin mi dolor, dapibus nec congue posuere, ornare sit. </p>
-						</div>
-						<div class="blog-post">
-							<a ><img style=" width: 100%; " src="images/demo6.jpg"></a>
-							<a  class="blog-title">覆盖剂</a>
-							<p  style=" display: none; ">覆盖剂是火山喷发的酸性岩经急速冷却而形成的玻璃质岩石经特殊加工西方处理后，撒在刚出炉的钢（铁）水表层，体积迅速膨胀4—30倍，具有排渣、保温等特点，故俗称除渣剂。 </p>
-						</div>
-						<div class="blog-post">
-							<a ><img style=" width: 100%; " src="images/demo4.jpg"></a>
-							<a  class="blog-title">闭孔珍珠岩</a>
-							<p  style=" display: none; ">闭孔珍珠岩(又叫釉化珍珠岩、球型膨胀珍珠岩)，是一种新型珍珠岩产品。广泛应用于墙体内外保温砂浆、装饰板、保温板的轻质骨料使用，同时可代替部分漂珠使用。 该产品是由有一定粒径的珍珠岩矿砂在垂直电炉梯级加热方式下达到一定温度后由内到外均匀膨胀，膨胀颗粒表面又经瞬间高温玻化，经降温后形成连续玻质化的颗粒表面，而内部保持着完整的多孔、中空空心结构，独特的生产方式决定了产品保持了珍珠岩天然无机化学成份的纯度。该产品克服了传统膨胀珍珠岩吸水率大、强度低、流动性差的特点，延伸了膨胀珍珠岩的应用领域，具有强度高，吸水率低，易分散等显著特点，可提高砂浆流动性，是生产复合保温涂料、耐火砖、搪瓷材料的主要配料，建筑、冶金、工业窑炉电热绝缘、热力管道等高档保温材料和轻质填料。.</p>
-						</div>
-					</div>
-					<div class="clearfix"></div>
 				</div>
 			</div>
-
 			<div class="blog-section">
 				<h4 class="head">联系我们<span class="line"></span></h4>
 				<div class="blog-post-grids blog_grids">
-					<div class="col-md-4 blog-posts">
+					<div class="flexRow row">
 						<div class="blog-post">
 							<a><img src="images/shouji.png"></a>
 							<span></span>
@@ -142,8 +170,6 @@
 							<a class="blog-title">QQ</a>
 							<p class="sub_head">1551247059</p>
 						</div>
-					</div>
-					<div class="col-md-4 blog-posts">
 						<div class="blog-post">
 							<a><img src="images/youxiang.png"></a>
 							<span></span>
@@ -156,8 +182,6 @@
 							<a class="blog-title">支付宝</a>
 							<p class="sub_head">13124032229</p>
 						</div>
-					</div>
-					<div class="col-md-4 blog-posts span_66">
 						<div class="blog-post">
 							<a><img src="images/weixin.png"></a>
 							<span></span>
@@ -171,7 +195,18 @@
 							<p class="sub_head">河南省信阳市平桥区五里店五九路口</p>
 						</div>
 					</div>
-					<div class="clearfix"></div>
+				</div>
+			</div>
+			<div class="blog-section">
+				<h4 class="head">关于我们<span class="line"></span></h4>
+				<div class="blog-post-grids blog_grids">
+					<p>信阳市双诚膨润土厂系信阳市膨润土深加工专业厂家，地处矿藏资源丰富的信阳市上天梯，
+						厂址位于312国道822—823公里处，京九、京广、西宁铁路、京珠高速、312国道纵横交错，
+						交通便利、物流发达。信阳市双诚膨润土厂拥有固定资产500万，技术力量雄厚，生产设备先进，
+						工艺流程严谨，质量检测体系科学精密,生产的“双诚”牌系列膨润土制品，选用信阳市上天梯非金属矿的优质原矿为原料，
+						经科学配方精细加工而成。主导产品有涂料级钠基膨润土、陶瓷用膨润土、钠基膨润土、造纸用膨润土、
+						钙基膨润土、医药级膨润土、钻井用膨润土、高效活性白土、饲料级膨润土 、锂基膨润土。
+						本公司一贯奉行诚心诚意的 经营策略，竭诚迎新老客户光临、惠顾、期望通过与您的诚信合作来促进我们的共同发展。</p>
 				</div>
 			</div>
 			<div class="projects-section">
@@ -220,4 +255,13 @@
 		</div>
 	</div>
 </body>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+		});
+		$('#myCarousel').carousel({interval:2000});//每隔5秒自动轮播
+	});
+</script>
 </html>
