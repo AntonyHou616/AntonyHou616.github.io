@@ -1212,7 +1212,7 @@ p.comment-form-author {
 }
 .map iframe{
 	width:100%;
-	min-height:350px;
+	min-height:300px;
 }
 /*--singe--*/
 .single-top img{
@@ -1792,7 +1792,7 @@ p.reply i{
 		min-height: 500px;
 	}
 	.map iframe {
-		min-height: 250px;
+		min-height: 300px;
 	}
 	.single {
 		padding: 3em 2em;
@@ -2038,7 +2038,7 @@ p.reply i{
 		background: url(../images/bullet.png) left 13px no-repeat;
 	}
 	.map iframe {
-		min-height: 200px;
+		min-height: 300px;
 	}
 	.map {
 		margin-top: 2em;
@@ -2337,4 +2337,19 @@ p.reply i{
 	.contact-form textarea {
 		width: 100%;
 	}
+}
+.widthInitial{
+	width: initial !important;
+}
+
+.flexBetween{
+	 display: flex !important;
+	 justify-content: space-between!important;
+ }
+.flexStart{
+	align-items: flex-start !important;
+}
+.proImg {
+	width: 300px!important;
+	height: 200px !important;;
 }
